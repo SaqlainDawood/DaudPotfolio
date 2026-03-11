@@ -4,7 +4,7 @@ import {
   FaGithub, FaLinkedin, FaTwitter, FaEnvelope, 
   FaDownload, FaFilePdf 
 } from "react-icons/fa";
-import resumeFile from '../assets/Resume/resume.pdf';
+import resumeFile from '../assets/Resume/Resume.pdf';
 import profileImg from '../assets/profileImg.jpeg';
 const Hero = () => {
   const typedRef = useRef(null);
