@@ -4,7 +4,7 @@ import {
   FaGithub, FaLinkedin, FaTwitter, FaEnvelope, 
   FaDownload, FaFilePdf 
 } from "react-icons/fa";
-import resumeFile from '../assets/Resume/Resume.pdf';
+import resumeFile from '../assets/Resume/Saqlain_Dawood_Resume_2025.pdf';
 import profileImg from '../assets/profileImg.jpeg';
 const Hero = () => {
   const typedRef = useRef(null);
@@ -82,10 +82,6 @@ const Hero = () => {
                 e.target.style.display = 'none'; // Hide broken image
                 // Optionally show a fallback
               }} />
-            <div className="experience-badge">
-              <span className="years">3+</span>
-              <span className="text">Years Experience</span>
-            </div>
           </div>
         </div>
       </div>
